@@ -203,7 +203,7 @@
     </style>
   </head>
   <body>
-    <header><h1>short</h1></header>
+    <header><h1><a href="https://s.aunomay.com/">short</h1></a></header>
     <main x-data="app" x-cloak>
       <p x-show.transition.opacity="alert" :class="alert?.type" x-text="alert?.message"></p>
       <input placeholder="Enter the URL you want to shorten..." x-model="url" x-ref="url" />
@@ -217,7 +217,7 @@
       <button :class="{ loading }" :disabled="loading || isValidated()" @click="submit($refs, $nextTick)">Generate</button>
     </main>
     <footer>
-     service
+     <a href="https://aunomay.com/">Aunomay</a>
     </footer>
     <script src="asset/js/alpine.js"></script>
     <script>
